@@ -466,9 +466,9 @@
             <label class="footer-label">
               <input
                 class="input-text"
-                type="text"
+                type="email"
                 placeholder="E-mail"
-                name="E-mail"
+                name="e-mail"
               />
             </label>
             <button class="footer-modal-button" type="submit">
@@ -481,7 +481,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="button-btn">
           <svg class="icon-two" width="8" height="8">
@@ -535,8 +535,8 @@
               </svg>
             </div>
           </div>
-          <div>
-            <label class="modal-lable" for="">Comment</label>
+          <div class="textarea-div">
+            <label class="modal-lable" for="user-comment">Comment</label>
             <textarea
               class="form-textarea"
               name="user-comment"
@@ -547,12 +547,12 @@
           <div class="modal-field">
             <input
               type="checkbox"
-              id="policy"
-              name="policy"
+              id="user-privacy"
+              name="user-privacy"
               class="modal-checkbox visually-hidden"
               value="true"
             />
-            <label for="policy" class="check-text">
+            <label for="user-privacy" class="check-text">
               <span class="modal-check">
                 <svg width="10" height="8" class="check">
                   <use href="./images/icons.svg#icon-Vector-3"></use>
