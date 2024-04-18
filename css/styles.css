@@ -503,7 +503,7 @@ img {
 .footer-modal-paragraph {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
@@ -511,6 +511,7 @@ img {
 
 .form {
   display: flex;
+  gap: 24px;
 }
 
 .input-text {
@@ -522,6 +523,11 @@ img {
   margin-right: 24px;
   padding-left: 16px;
   padding-right: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
 }
 
 .input-text::placeholder {
@@ -529,31 +535,32 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-modal-button {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
   border: none;
-  gap: 16px;
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .footer-modal-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 
 /* -----------------  MODAL  ------------ */
