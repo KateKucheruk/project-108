@@ -520,7 +520,6 @@ img {
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  margin-right: 24px;
   padding-left: 16px;
   padding-right: 16px;
   font-size: 12px;
@@ -724,11 +723,10 @@ img {
 }
 
 .form-textarea:focus {
-  border: #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-field {
-  margin-bottom: 24px;
 }
 
 .check-text {
